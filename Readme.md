@@ -19,6 +19,6 @@ Users should be able to:
 - Flexbox
 
 **Preview**
-- Live Site URL: [EasyBank](https://your-live-site-url.com)
+- Live Site URL: [EasyBank](https://abels-dev.github.io/Easy-Bank-Landing-page/)
 
 
