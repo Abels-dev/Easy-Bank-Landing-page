@@ -18,13 +18,14 @@ body {
    overflow-x: hidden;
 }
 header {
+   position: relative;
    padding: 1rem;
    display: flex;
    justify-content: space-around;
    align-items: center;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    background-color: var(--white);
-   z-index: 3;
+   z-index: 7;
 }
 nav ul {
    display: flex;
@@ -77,7 +78,6 @@ nav ul a:hover::after {
    gap: 3rem;
    height: 90vh;
    position: relative;
-   overflow: hidden;
    background-color: var(--very-light-gray);
 }
 .hero-image-container {
@@ -103,10 +103,11 @@ nav ul a:hover::after {
    z-index: 1;
 }
 .hero-image {
+   position: relative;
    display: block;
    margin-top: 120px;
    width: 82%;
-   z-index: 2;
+   z-index: 5;
 }
 .hero-article {
    max-width: 40%;
@@ -126,7 +127,8 @@ nav ul a:hover::after {
    color: var(--grayish-blue);
 }
 .description-section {
-   z-index: 3;
+   position: relative;
+   z-index: 4;
    padding-right: 7rem;
    padding-bottom: 4rem;
    padding-top: 4rem;
@@ -276,6 +278,7 @@ footer {
    .hero-section {
       gap: 1rem;
       height: 500px;
+      overflow-x: hidden;
    }
    .hero-article {
       max-width: 50%;
@@ -311,6 +314,7 @@ footer {
    }
    .hero-section {
       height: 500px;
+      overflow-x: hidden;
    }
    .hero-image-container {
       top: 10px;
